@@ -1,0 +1,84 @@
+(footprint "10k resistor"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.2 -3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0fedf640-15cb-4083-9d38-1f3bf0f5cbde")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "10k resistor"
+		(at 0.05 -2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cd757933-5e56-4aa2-b04a-0851660f66e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e526e5da-42d5-48b5-b086-16fdf1922402")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cc51d376-07b1-4db4-81ee-7364fae25f96")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -1 -0.65)
+		(end 1 0.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "b2514782-3711-49a0-a637-f8e898605723")
+	)
+	(pad "1" smd roundrect
+		(at -0.5 -0.05)
+		(size 0.7 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "b2eaecd8-7b44-450f-868f-8a1d6f8eced4")
+	)
+	(pad "2" smd roundrect
+		(at 0.5 -0.05)
+		(size 0.7 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "03314fdc-add0-4c11-9523-206eb6426669")
+	)
+	(embedded_fonts no)
+)

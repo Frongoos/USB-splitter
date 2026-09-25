@@ -1,0 +1,140 @@
+(footprint "LWD"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.4 -1.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "2a55d841-6374-41c5-877d-af5ad19b990c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "LED"
+		(at 0.1 -1.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "08ba1955-ee36-49aa-8450-4c7904f00dec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fa7d9f09-9a56-473b-b5a7-74a3a3d6589b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ce20cf1b-dae7-4e81-bbd9-a3db4615844d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -0.8 -0.4)
+		(end 0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "e5322065-0190-42fb-b94d-4f26b2f8840f")
+	)
+	(fp_text user "-"
+		(at 0 1.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "46ca0298-f4e8-4e0d-a5c4-daabd788583d")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "+"
+		(at -0.9 1.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "56b7dd93-b210-405a-acd3-984522a0fdeb")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" smd circle
+		(at -0.4 0)
+		(size 0.3 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fdd1b141-9116-4cfe-8416-c433dc73b150")
+	)
+	(pad "2" smd circle
+		(at 0.4 0)
+		(size 0.3 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "dd9529c0-f6a4-4714-9ece-235b2530a894")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.SilkS")
+		(uuid "fdf1e78c-6602-4fc3-b6b7-a92aa949143d")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -0.8 -0.4) (xy 0.8 -0.4) (xy 0.8 0.4) (xy -0.8 0.4)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
